@@ -1,0 +1,39 @@
+/* Write your code here: */
+
+
+h1,h2{  
+    color: blueviolet;
+}
+.box>p{
+    color: firebrick;
+}
+
+.box .list{
+    color: blue;
+}
+/* usinf descendant instead of chain for chainig example
+.box .list .done{
+    color: green;
+} 
+*/
+li.done{
+    color: green;
+}
+ul p.done{
+    font-size: 0.5rem;
+}
+/*
+ul > p.done{
+    font-size: 0.5rem;
+}*/
+/* will learn here different selectors
+grouping
+child parent....works only for direct child
+descendant works for as many selectors as we want
+chaining selectors used for being really specific
+
+if we have element always start with element for eg li
+after that its on you!
+
+combining combiners
+descendant and chain*/
